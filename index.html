@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Employee Directory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="flex">
+            <h1 class="header__title">Meet the Team</h1>
+            <div class="search flex">
+                <select class="search__menu" name="dropdown">
+                    <option value="Everyone">Everyone</option>
+                </select>
+                <input class="search__input" type="text" placeholder="search name">
+            </div>
+        </header>
+        <main>
+            <div class="employees"></div>
+        </main>
+        <script src="../js/index.js" type="module"></script>
+    </body>
+</html>
